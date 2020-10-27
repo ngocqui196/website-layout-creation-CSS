@@ -1,0 +1,88 @@
+body{
+    background-color: skyblue;
+}
+#head{
+    height: 100px;
+    background-color: lightseagreen;
+    /*margin: 5px 3px 3px;*/
+    border: 1px solid darkgoldenrod;
+}
+img{
+    float: left;
+    background-color: aquamarine;
+}
+#headLink{
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    background-color: darkgoldenrod;
+    /*margin: 1px 3px 1px;*/
+    border: 1px solid black;
+}
+#left{
+    height: 400px;
+    width: 18%;
+    background-color: #0a85ef;
+    /*margin: 3px 3px 3px 0px;*/
+    float: left;
+}
+#main{
+
+    height: 400px;
+    width: 64%;
+    float: left;
+    background-color: aliceblue;
+}
+#right{
+    height: 400px;
+    width: 18%;
+    float: left;
+    background-color: darkgoldenrod;
+}
+#footer{
+    height: 100px;
+    width: 100%;
+    clear: both;
+    background-color: cadetblue;
+}
+#left ul{
+    font-family: Arial;
+    padding-left: 0;
+    padding-right: 120px;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#left li {
+    font-family: Arial;
+    list-style: none;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    padding: 0 100%;
+    background-color: darkgreen;
+    line-height: 20px;
+    cursor: pointer;
+}
+#left li:hover{
+    background-color: #018f01;
+}
+#left ul ul {
+    position: absolute;
+    top: 0;
+    left: 140px;
+    visibility: hidden;
+
+}
+#left ul li:hover ul {
+    visibility: visible;
+}
+
+
+/*#banner{*/
+/*    height: 140px;*/
+/*    width: 80%;*/
+/*    margin: 5px;*/
+/*    float: left;*/
+/*    background-color: #00bfff;*/
+/*}*/
